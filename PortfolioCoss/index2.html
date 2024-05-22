@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Scopri la Musica</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style2.css" rel="stylesheet">
+</head>
+<body class="bg-dark text-white">
+   
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <a class="navbar-brand" href="#">Spotify</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">Chi Siamo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#features">Funzionalità</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contatti</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    
+    <header class="jumbotron jumbotron-fluid text-black text-center bg-spotify-green">
+        <div class="container">
+            <h1 class="display-4">Benvenuti su Spotify</h1>
+            <p class="lead">Scopri un mondo di musica, podcast e molto altro</p>
+            <a href="#about" class="btn btn-primary mt-4">Scopri di più</a>
+        </div>
+    </header>
+
+    
+<section id="about" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Chi Siamo</h2>
+        <div class="row">
+            <div class="text-center mb-4 d-flex align-items-center justify-content-center">
+                <p class="text-center">Spotify è un servizio di streaming musicale che offre una vasta libreria di brani, podcast e video di artisti di tutto il mondo. La nostra missione è connettere milioni di persone attraverso la musica, fornendo un'esperienza d'ascolto unica e personalizzata.La musica è la nostra passione. Siamo qui per portare la migliore esperienza di ascolto a milioni di persone in tutto il mondo.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+    <section id="features" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Funzionalità</h2>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <div class="feature-box p-4 mb-4">
+                        <i class="fas fa-music fa-4x mb-3 text-primary"></i>
+                        <h3>Milioni di Brani</h3>
+                        <p>Accedi a una vasta libreria musicale con milioni di canzoni di artisti di tutto il mondo.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box p-4 mb-4">
+                        <i class="fas fa-podcast fa-4x mb-3 text-primary"></i>
+                        <h3>Podcast Esclusivi</h3>
+                        <p>Ascolta podcast esclusivi e scopri nuovi contenuti ogni giorno.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box p-4 mb-4">
+                        <i class="fas fa-headphones-alt fa-4x mb-3 text-primary"></i>
+                        <h3>Esperienza Personalizzata</h3>
+                        <p>Goditi playlist personalizzate e consigli musicali basati sui tuoi gusti.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contatti</h2>
+            <p class="text-center mb-4">Se hai domande o suggerimenti, non esitare a contattarci!</p>
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Nome</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Messaggio</label>
+                            <textarea class="form-control" id="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block border-dark">Invia</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 Spotify/Cossidente Gianrocco. Tutti i diritti riservati.</p>
+            <div class="social-icons">
+                <a href="#" class="text-white mr-2"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white mr-2"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+  
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
